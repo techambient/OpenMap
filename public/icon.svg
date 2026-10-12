@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="cloud" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <rect width="504" height="504" x="4" y="4" rx="124" stroke="#334155" stroke-width="4" fill="none" />
+  
+  <!-- Sun halo -->
+  <circle cx="210" cy="190" r="74" fill="url(#sun)" />
+  
+  <!-- Cloud shapes with sleek meteorological curve -->
+  <path d="M170 330 C130 330 100 298 100 258 C100 222 126 192 162 188 C176 142 220 110 270 110 C332 110 382 154 392 214 C422 222 444 248 444 280 C444 316 414 346 378 346 L170 346 Z" fill="url(#cloud)" opacity="0.95" />
+  
+  <!-- Atmospheric isobars / analytical vector waves -->
+  <path d="M120 380 Q 220 360, 320 400 T 420 380" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8" />
+  <path d="M140 415 Q 240 395, 340 435 T 400 415" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.9" />
+  
+  <!-- Center analytical barometer indicator -->
+  <circle cx="360" cy="270" r="28" fill="#0f172a" stroke="#38bdf8" stroke-width="5" />
+  <line x1="360" y1="270" x2="375" y2="255" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" />
+</svg>
